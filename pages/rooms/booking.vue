@@ -148,7 +148,7 @@ const confirmBooking = () => {
                   <label for="address" class="form-label fs-8 fs-md-7 fw-bold"
                     >地址</label
                   >
-                  <div class="d-flex gap-2 mb-4">
+                  <div className="d-flex gap-2 mb-4">
                     <select
                       class="form-select w-50 p-4 text-neutral-80 fs-8 fs-md-7 fw-medium rounded-3"
                     >
