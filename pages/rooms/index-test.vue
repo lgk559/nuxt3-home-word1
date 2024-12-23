@@ -1,12 +1,11 @@
 <script setup>
 import { ref, computed } from "vue";
-// import { useAsset } from "#imports";
 
 const roomId = ref("a");
 const num = ref(1);
 
-// const { asset } = useAsset();
 const config = useRuntimeConfig();
+console.log(config.public.baseURL);
 
 const desktopImageSrc = computed(
   () => `${config.public.baseURL}/images/room-${roomId.value}-${num.value}.png`

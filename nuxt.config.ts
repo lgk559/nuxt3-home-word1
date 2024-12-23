@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      baseURL: process.env.BASE_URL || '/_nuxt'
+      baseURL: process.env.NODE_ENV === "development" ? "/_nuxt/assets" : "/_nuxt"
     }
   }
 })
