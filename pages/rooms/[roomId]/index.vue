@@ -504,15 +504,6 @@ const handleDateChange = (bookingInfo) => {
               </div>
 
               <h5 class="mb-0 text-primary-100 fw-bold">NT$ 10,000</h5>
-              <!-- <NuxtLink
-                :to="{
-                  name: 'booking',
-                  params: { roomId: $route.params.roomId },
-                }"
-                class="btn btn-primary-100 py-4 text-neutral-0 fw-bold rounded-3"
-              >
-                立即預訂
-              </NuxtLink> -->
               <NuxtLink
                 :to="{
                   name: 'rooms-roomId-booking',

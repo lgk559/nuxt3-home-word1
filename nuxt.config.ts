@@ -15,4 +15,9 @@ export default defineNuxtConfig({
       },
     },
   },
+  runtimeConfig: {
+    public: {
+      baseURL: process.env.BASE_URL || 'http://localhost:3000/_nuxt/assets/'
+    }
+  }
 })
