@@ -8,11 +8,10 @@ const config = useRuntimeConfig();
 console.log(config.public.baseURL);
 
 const desktopImageSrc = computed(
-  () => `${config.public.baseURL}/images/room-${roomId.value}-${num.value}.png`
+  () => `${config.public.baseURL}/room-${roomId.value}-${num.value}.png`
 );
 const mobileImageSrc = computed(
-  () =>
-    `${config.public.baseURL}/images/room-${roomId.value}-sm-${num.value}.png`
+  () => `${config.public.baseURL}/room-${roomId.value}-sm-${num.value}.png`
 );
 </script>
 
